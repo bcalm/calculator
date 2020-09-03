@@ -5,6 +5,7 @@ dist: trusty
 jdk: oraclejdk8
 
 script:
+  - ./gradlew build
   - pwd
   - ls
   - ./gradlew test
